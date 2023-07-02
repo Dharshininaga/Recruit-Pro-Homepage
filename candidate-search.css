@@ -1,0 +1,161 @@
+.image-icon {
+  position: absolute;
+  top: calc(50% - 425px);
+  left: calc(50% - 700px);
+  width: 1400px;
+  height: 850px;
+  object-fit: cover;
+  display: none;
+  opacity: 0.2;
+}
+.suggestion-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 500px;
+  height: 536px;
+}
+.sign-in,
+.sign-in1,
+.sign-in2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 26px;
+}
+.sign-in1,
+.sign-in2 {
+  top: 66px;
+}
+.sign-in2 {
+  top: 132px;
+}
+.sign-in3,
+.sign-in4,
+.sign-in5,
+.sign-in6,
+.sign-in7 {
+  position: absolute;
+  top: 198px;
+  left: 0;
+  line-height: 26px;
+}
+.sign-in4,
+.sign-in5,
+.sign-in6,
+.sign-in7 {
+  top: 264px;
+}
+.sign-in5,
+.sign-in6,
+.sign-in7 {
+  top: 330px;
+}
+.sign-in6,
+.sign-in7 {
+  top: 396px;
+}
+.sign-in7 {
+  top: 462px;
+}
+.frame-child,
+.frame-inner,
+.frame-item,
+.group-icon {
+  position: absolute;
+  top: 176px;
+  left: -19px;
+  width: 480px;
+  height: 68px;
+}
+.frame-inner,
+.frame-item,
+.group-icon {
+  top: 308px;
+}
+.frame-inner,
+.group-icon {
+  top: 445px;
+  height: 2px;
+}
+.group-icon {
+  top: 44px;
+  height: 68px;
+}
+.sign-in-parent,
+.suggestion {
+  position: absolute;
+  top: 20px;
+  left: 29px;
+  width: 140px;
+  height: 355px;
+}
+.suggestion {
+  top: 41px;
+  left: 0;
+  width: 500px;
+  height: 536px;
+}
+.search-bar-child {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 250px);
+  border-radius: 30px;
+  background-color: var(--light-text);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 500px;
+  height: 31px;
+  opacity: 0.2;
+}
+.fa-search {
+  position: absolute;
+  top: 6px;
+  left: 8px;
+}
+.span {
+  font-weight: 500;
+  font-family: var(--buttons-big);
+}
+.type-something {
+  color: rgba(255, 255, 255, 0.5);
+}
+.sign-in8 {
+  position: absolute;
+  top: 3px;
+  left: 31px;
+  font-size: var(--buttons-middle-size);
+  line-height: 26px;
+  font-family: var(--buttons-big);
+}
+.search,
+.search-bar {
+  position: absolute;
+  width: 500px;
+}
+.search-bar {
+  top: 0;
+  left: calc(50% - 250px);
+  height: 31px;
+  font-size: var(--text-paragraph-size);
+  font-family: var(--font-awesome);
+}
+.search {
+  top: 117px;
+  left: 50px;
+  backdrop-filter: blur(50px);
+  height: 577px;
+}
+.candidate-search {
+  position: relative;
+  width: 600px;
+  height: 850px;
+  overflow: hidden;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: left;
+  font-size: var(--buttons-middle-size);
+  color: var(--light-text);
+  font-family: var(--buttons-big);
+}

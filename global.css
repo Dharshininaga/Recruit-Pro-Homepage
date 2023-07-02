@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  inset: 0;
+}
+
+:root {
+  /* fonts */
+  --buttons-big: "DM Sans";
+  --font-awesome: FontAwesome;
+
+  /* font sizes */
+  --buttons-middle-size: 18px;
+  --text-paragraph-size: 16px;
+  --buttons-big-size: 20px;
+  --heading-h1-hero-size: 72px;
+  --heading-h5-lead-size: 22px;
+  --heading-h3-title-size: 42px;
+
+  /* Colors */
+  --color-gray-100: rgba(255, 255, 255, 0.3);
+  --light-text: #fff;
+  --color-black: #000;
+  --color-gainsboro: rgba(217, 217, 217, 0.3);
+
+  /* border radiuses */
+  --br-81xl: 100px;
+  --br-3xs: 10px;
+}
